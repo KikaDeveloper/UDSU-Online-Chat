@@ -5,7 +5,7 @@
 ## УСТАНОВКА
 1. Скачать архив с сервером и утилитой для аминистрирования БД - https://www.mongodb.com/try/download/community.
 2. Скачать исходный код с репозитория GitHub - https://github.com/KikaDeveloper/UDSU-Online-Chat.git.
-3. Установить Node.js.
+3. Установить Node.js - https://nodejs.org/en/.
 
 ## НАСТРОЙКА
 1. Запустить сервер mongod в папке, куда распаковали архив с БД. (mongodb-4.4.5\bin)
