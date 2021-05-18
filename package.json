@@ -1,0 +1,26 @@
+{
+  "name": "onlinechat",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Онлайн чат для библиотеки УдГУ имени В.А. Журавлева",
+  "main": "server.js",
+  "scripts": {
+    "start": "node Server/server.js",
+    "dev": "nodemon Server/server.js"
+  },
+  "keywords": [
+    "чат",
+    "онлайн чат"
+  ],
+  "author": "Васильев Кирилл <kikamozga18@ya.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6",
+    "pug": "^3.0.0",
+    "socket.io": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

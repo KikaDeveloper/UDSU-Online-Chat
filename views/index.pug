@@ -1,0 +1,32 @@
+doctype html
+head
+  meta(charset='utf-8')
+  title &CHcy;&acy;&tcy;
+  link(rel='icon' href='favicon.ico')
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Roboto&display=swap' rel='stylesheet')
+  link(rel='stylesheet' href='main.css')
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js')
+  script(src='/socket.io/socket.io.js')
+  script(src='script.js')
+header.head
+  .logotype
+    .logo
+      img(alt='logo' src='./image/logo.png')
+    .logo_text
+      | &Ucy;&dcy;&mcy;&ucy;&rcy;&tcy;&scy;&kcy;&icy;&jcy; &gcy;&ocy;&scy;&ucy;&dcy;&acy;&rcy;&scy;&tcy;&vcy;&iecy;&ncy;&ncy;&ycy;&jcy; &ucy;&ncy;&icy;&vcy;&iecy;&rcy;&scy;&icy;&tcy;&iecy;&tcy;
+.main
+  .left_part.container
+    .auth
+      input.login_input.input(type='text' placeholder='Логин или эл.почта')
+      input.pass_input.input(type='password' placeholder='Пароль')
+      button.auth_button &Vcy;&khcy;&ocy;&dcy; &vcy; &acy;&kcy;&kcy;&acy;&ucy;&ncy;&tcy;
+    .online_counter
+      h4.online_block &Vcy; &scy;&iecy;&tcy;&icy;: 0
+  .right_part.container
+    .chat_container
+      .chat
+        .message_window
+        .message_input
+          input.message_field(type='text' placeholder='Сообщение')
+          button.send_button
